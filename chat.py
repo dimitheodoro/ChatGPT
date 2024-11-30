@@ -61,7 +61,7 @@ if __name__ == "__main__":
                     # st.write(f"**User:** {message['content']}")
                     st.write("**{}**:{}".format(NAME,message['content']))
                 else:
-                    st.write(f"**ΑΣΚΛΗΠΙΕΙΟ- chatGPT:** {message['content']}")
+                    st.write(f"**AI chatbot:** {message['content']}")
 
             # # Display conversation history
             # for message in st.session_state.history:
@@ -82,5 +82,5 @@ if __name__ == "__main__":
                     st.write(f"**User:** {message['content']}")
                     # st.write("{}:{}".format(NAME,message['content']))
                 else:
-                    st.write(f"**ΑΣΚΛΗΠΙΕΙΟ- chatGPT:** {message['content']}")  
+                    st.write(f"**AI chatbot:** {message['content']}")  
 
