@@ -5,12 +5,12 @@ from openai import OpenAI
 import streamlit as st
 
 XAPI = "xai-ycwqLKangyJjUgFphVtmecTQcCfLad9BaV0tasNrCe1l6MdF44IkfnT1Q03r7xTqVib2pNPfvuNm7usi"
-st.title("ChatGPT...")
+st.title("AI chatbot...")
 st.subheader("by Dimitris Theodoropoulos")
 #st.markdown("<h1 style='color: red;'>ΑΣΚΛΗΠΙΕΙΟ- chatGPT</h1>", unsafe_allow_html=True)
 #st.markdown("<h2 style='color: blue;'>by Dimitris Theodoropoulos</h2>", unsafe_allow_html=True)
 
-st.image("me.jpg")
+#st.image("me.jpg")
 
 # Initialize session state for conversation history
 if "history" not in st.session_state:
